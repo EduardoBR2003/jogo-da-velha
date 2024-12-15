@@ -77,7 +77,7 @@ function resetGame() {
     gameBoard = ['', '', '', '', '', '', '', '', ''];
     gameActive = true;
     currentPlayer = 'X';
-    statusDisplay.textContent = 'Vez do Jogador Natureza (X)';
+    statusDisplay.textContent = 'Vez do Jogador (X)';
     
     // Limpa todas as células
     cells.forEach(cell => {
